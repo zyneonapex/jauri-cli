@@ -16,6 +16,8 @@ java {
 
 repositories {
     mavenCentral()
+    maven("https://maven.nrfy.net/snapshots") { name = "nerofySnapshots" }
+    maven("https://maven.nrfy.net/releases") { name = "nerofyReleases" }
 }
 
 dependencies {
